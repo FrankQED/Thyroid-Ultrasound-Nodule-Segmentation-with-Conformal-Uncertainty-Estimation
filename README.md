@@ -8,6 +8,6 @@ Computer-Aided Diagnosis (CAD) systems can reduce this variability and provide c
 The first stage of any thyroid cancer CAD pipeline is nodule segmentation: an accurate mask is the starting point for downstream malignancy classification and metastatic-risk quantification.
 
 In this work, we propose a reliable nodule segmentation baseline.
-We adopt DeepLabV3+~\cite{deeplab} with an EfficientNet-B5 backbone pre-trained on ImageNet, and we explore the performance of three channel-attention modules: Squeeze-and-Excitation (SE), Convolutional Block Attention Module (CBAM) and Grouped Channel Attention (GCA); combined with two loss functions.
+We adopt DeepLabV3+ with an EfficientNet-B5 backbone pre-trained on ImageNet, and we explore the performance of three channel-attention modules: Squeeze-and-Excitation (SE), Convolutional Block Attention Module (CBAM) and Grouped Channel Attention (GCA); combined with two loss functions.
 The GCA module has previously been shown to be effective in a multimodal CLIP-based framework for thyroid segmentation, but here we evaluate it in a purely visual setting.
 Finally, we add a conformal prediction layer to the trained model that produces pixel-level uncertainty maps with coverage guarantees.
