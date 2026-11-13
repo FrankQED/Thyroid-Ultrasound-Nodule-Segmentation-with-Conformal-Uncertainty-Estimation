@@ -1,0 +1,13 @@
+# Notebook 01: training, evaluation and export of the logits.
+# On Google Colab only the two pinned packages are installed (the notebook does it);
+# torch, opencv and tqdm come with Colab.
+torch
+segmentation-models-pytorch==0.3.4
+albumentations==1.4.0
+opencv-python
+tqdm
+numpy
+pandas
+scipy
+matplotlib
+jupyter

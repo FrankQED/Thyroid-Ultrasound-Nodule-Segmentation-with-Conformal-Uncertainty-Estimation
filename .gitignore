@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Data, weights and cached predictions (released on Zenodo, not on GitHub)
+data/
+checkpoints/
+cache/
+release/
+*.pt
+*.pth
+*.npy
+SHA256SUMS.txt
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
